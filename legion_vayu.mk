@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common Legion OS configurations
 $(call inherit-product, vendor/legion/config/common_full_phone.mk)
+LEGION_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=chdelacr
